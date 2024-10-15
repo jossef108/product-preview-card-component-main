@@ -1,0 +1,73 @@
+body {
+
+    background-color: #F3EAE3;
+}
+
+img {
+    height: 29em;
+    width: 19em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-info {
+    background-color: white;
+    height: 27em;
+    padding: 1em;
+    width: 17em;
+    font-family: "Montserrat", sans-serif;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.product-title {
+    color: hsl(228, 12%, 48%);
+}
+
+.product-details {
+    color: hsl(228, 12%, 48%);
+}
+
+.btn {
+    width: 18em;
+    height: 3em;
+    border-radius: 0.5em;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.pricing-container {
+    display: flex;
+    gap: 2.5em;
+    align-items: center;
+    font-family: "Fraunces", serif;
+}
+
+.product-price1 {
+    font-size: 2em;
+    color: hsl(158, 36%, 37%);
+    font-weight: bold;
+    font-family: "Fraunces", serif;
+}
+
+.product-price2 {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+svg {
+    position: relative;
+    right: 0.5em;
+}
