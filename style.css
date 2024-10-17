@@ -6,8 +6,6 @@ body {
 img {
     height: 29em;
     width: 19em;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
 }
 
 .container {
@@ -24,8 +22,6 @@ img {
     padding: 1em;
     width: 17em;
     font-family: "Montserrat", sans-serif;
-    border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
 }
 
 .product-title {
@@ -70,4 +66,26 @@ img {
 svg {
     position: relative;
     right: 0.5em;
+}
+
+@media screen and (min-width: 620px) {
+    .product-info {
+        border-top-right-radius: 1em;
+        border-bottom-right-radius: 1em;
+    }
+    img {
+        border-top-left-radius: 1em;
+        border-bottom-left-radius: 1em;
+    }
+}
+
+@media screen and (max-width: 621px) {
+    .product-info {
+        border-bottom-left-radius: 1em;
+        border-bottom-left-radius: 1em;
+    }
+    img {
+        border-top-right-radius: 1em;
+        border-top-left-radius: 1em;
+    }
 }
