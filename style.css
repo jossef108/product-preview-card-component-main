@@ -82,7 +82,7 @@ svg {
 @media screen and (max-width: 621px) {
     .product-info {
         border-bottom-left-radius: 1em;
-        border-bottom-left-radius: 1em;
+        border-bottom-right-radius: 1em;
     }
     img {
         border-top-right-radius: 1em;
